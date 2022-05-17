@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color:#ffffff;
 }
 
 body {
@@ -86,39 +87,6 @@ section p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 } 
-.hero{
-    display:flex;
-    justify-items: flex-start;
-    background-image: "";
-    width: 50%;
-    height: 50%;
-}
-
-.about-me {
-    display: flex;
-    justify-items:flex-start;
-    flex-wrap: wrap;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-    font-size: 50px;
-}
-
-#designs {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;
-}
-
-#developments {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
 footer {
     padding: 30px;
@@ -131,4 +99,49 @@ footer {
 footer h2 {
     font-size: 20px;
     color: blueviolet;
+}
+
+.About-Me {
+    display: flex;
+    justify-items:flex-start;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+.Work {
+    display: flex;
+    justify-items:flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+}
+.email {
+    color:#ffffff;
+}
+.email a {
+    color:limegreen
+}
+.github {
+     color:#ffffff;
+ }
+.github a {
+     color:limegreen;
+ }
+.contact-list {
+    display:none;
+    position:relative;
+    background-color: blueviolet;
+
+}
+.contact-drop:hover .contact-list {
+    display:inline;
+    
+ }
+.contact-list p {
+    color:black;
 }
