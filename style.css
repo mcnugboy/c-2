@@ -56,8 +56,6 @@ p {
 }
 
 section {
-    display: flex;
-    flex-wrap: wrap;
     border: solid;
     border-color: blueviolet;
     background-color: black;
@@ -111,14 +109,27 @@ footer h2 {
 }
 
 .Work {
-    display: flex;
-    justify-items:flex-start;
-    flex-wrap: wrap;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
+}
+.Work-Title{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.Panes{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(41, 40, 40);
+
 }
 .email {
     color:#ffffff;
