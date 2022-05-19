@@ -9,7 +9,7 @@ In this Module we learned about advanced CSS and using Flexbox. We needed to cre
 *HTML *CSS
 
 # Mock-up Sketch
-![Mock-up](mock-up.png)
+![Mock-up Image](mock-up.png)
 
 # Website
 [https://github.com/mcnugboy/c-2](https://mcnugboy.github.io/c-2/)
