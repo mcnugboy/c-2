@@ -13,4 +13,4 @@ In this Module we learned about advanced CSS and using Flexbox. We needed to cre
 ![Mock-up](mock-up.png)
 
 # Website
-https://github.com/mcnugboy/c-2
+[https://github.com/mcnugboy/c-2](https://mcnugboy.github.io/c-2/)
