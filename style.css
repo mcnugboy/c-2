@@ -115,6 +115,7 @@ footer h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
 }
+
 .Work-Title{
     display: flex;
     flex: auto;
@@ -123,6 +124,7 @@ footer h2 {
     justify-content: space-around;
 
 }
+
 .Panes{
     display:flex;
     flex-direction: row;
@@ -131,28 +133,35 @@ footer h2 {
     background-color: rgb(41, 40, 40);
 
 }
+
 .email {
     color:#ffffff;
 }
+
 .email a {
     color:limegreen
 }
+
 .github {
      color:#ffffff;
- }
+}
+
 .github a {
      color:limegreen;
- }
+}
+
 .contact-list {
     display:none;
     position:relative;
     background-color: blueviolet;
 
 }
+
 .contact-drop:hover .contact-list {
     display:inline;
     
- }
+}
+
 .contact-list p {
     color:black;
 }
