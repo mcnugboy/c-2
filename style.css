@@ -130,17 +130,24 @@ footer h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(41, 40, 40);
+    height: 400px;
+    /* background-color: rgb(41, 40, 40); */
 
 }
 .Logos {
     border: 2px solid white;
+    height: 300px;
+    width: 400px;
 }
 .Banners {
     border: 2px solid white;
+    height: 300px;
+    width: 400px;
 }
 .Webpage-mockups {
     border: 2px solid white;
+    height: 300px;
+    width: 400px;
 }
 .email {
     color:#ffffff;
